@@ -1,0 +1,92 @@
+body {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #acaeb1;
+
+}
+
+
+
+
+.Container {
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Barra_Topo {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    height: 60px;
+    width: 100%;
+    background-color: #7700ffbd;
+    color: #ffffff;
+    cursor: pointer;
+
+}
+
+.posts {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 700px;
+    background-color: #070606b1;
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 30px;
+    margin: 18px;
+    padding: 18px;
+}
+
+.Titulo {
+
+    font-size: 1.2rem;
+    color: royalblue;
+    margin-top: 10px;
+    margin-bottom: 25px;
+
+}
+
+.Subtitulo {
+
+    margin: 5px;
+}
+
+.botao {
+
+    height: 40px;
+    background: none;
+    border-radius: 5px;
+    border: solid 2px #fff;
+    color:  royalblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    transition: all 0.9s;
+}
+
+.botao:hover {
+
+    color:#fff;
+    background-color: #7700ffbd;
+}
+
+.dicas {
+
+    font-size: 1rem;
+    color: aqua;
+    margin-bottom: 5px;
+}
+
+
+
